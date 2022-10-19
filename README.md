@@ -11,9 +11,7 @@ Node Version 16.17.0+
 
 ## Installation
 
-### Configure env
-
-- Create .env file with a copy of .env.example and configure for websocket
+### Create .env file with a copy of .env.example and configure for websocket
   BROADCAST_DRIVER=pusher
   QUEUE_CONNECTION=sync
   PUSHER_APP_ID=anything
@@ -24,13 +22,22 @@ Node Version 16.17.0+
   PUSHER_SCHEME=http
   PUSHER_APP_CLUSTER=mt1
 And related Database configuration
-- Install composer and npm
+### Install composer and npm
 composer install
 npm install
-- Migrate Database
+### Migrate Database
 php artisan migrate
-- Run
+### Run
 php artisan serve
 npm run dev
 php artisan websockets:serve
+
+## Test
+Open two tabs on browser and run each as below
+
+http://localhost:8000?username=user1
+http://localhost:8000?username=user2
+
+Enjoy!
+
 
