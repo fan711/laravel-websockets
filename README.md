@@ -1,7 +1,7 @@
 ## Requirements
 
-PHP version 8.1__
-Node Version 16.17.0+__
+PHP version 8.1 <br />
+Node Version 16.17.0+ <br />
 
 ## Installation
 
