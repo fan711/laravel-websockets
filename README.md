@@ -1,13 +1,7 @@
-## Laravel Websocket Demo Project
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-
-
 ## Requirements
 
-PHP version 8.1
-Node Version 16.17.0+
+PHP version 8.1__
+Node Version 16.17.0+__
 
 ## Installation
 
